@@ -3,7 +3,7 @@
 /* Global */
 
 body {
-    background-color: #f8f8f8;
+    background-color: #e9ecef66;
 
 }
 
@@ -160,6 +160,79 @@ h3 span {
     border-bottom: none;
 }
 
-
-
 /* Hours end */
+
+/* Products */
+
+.products .card {
+    border: none;
+}
+
+.products .card a {
+    color: #000;
+}
+
+.products .card a:hover {
+    text-decoration: none;
+}
+
+.products .card h3{
+    font-size: 1.3rem;
+    color: #e082a8;
+}
+
+.products .card p {
+    font-size: .8rem;
+}
+
+.products .card p.price {
+    font-size: 1.5rem;
+    font-family: 'Lato', sasn-serif;
+    color: #979797;
+}
+
+/* Products end */
+
+ /* Appointment */
+
+.appointment {
+    background-image: url(../img/bg_appointment.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffffff;
+}
+
+@media (min-width: 992px) {
+    .appointment {
+    }
+}
+
+.appointment h3 {
+    color: white;
+    line-height: 4rem;
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.appointment p {
+    line-height: 2.5rem;
+}
+
+.appointment .btn-primary {
+    background-color: #8ed3cc;
+    border: none;
+    border-radius: 0;
+    padding: 1rem 5rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.appointment .btn-primary:hover {
+    background-color: #68beb5;
+}
+
+ /* Appointment end */
+
+
