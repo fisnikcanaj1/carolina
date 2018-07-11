@@ -1,1 +1,89 @@
 /*** Add your styles here **/
+
+/* Global */
+
+h2 {
+    font-size: 2.4rem;
+}
+
+h2.span {
+    font-size: 4rem;
+}
+
+h2,
+h3 {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    line-height: 2.4rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h3 span {
+    font-size: 3rem;
+}
+
+h2 span,
+h3 span {
+    font-family: 'Italianno', cursive;
+    display: block;
+    color: #e082a8;
+}
+
+/* Global end */
+
+/* Header */
+
+.navigation {
+    background-color: #8ed3cc;
+}
+
+.main-nav {
+    background-image: url(../img/border_horizontal.png),
+                      url(../img/border_horizontal.png);
+    background-repeat: repeat-x;
+    background-position: 0px top, 0px bottom;
+    margin: 5px 0;
+}
+
+.main-nav .nav-item {
+    transition: background-color .3s ease-in-out;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.main-nav .nav-item:hover {
+    background-color: #39a69b;
+    border-radius: 10px;
+}
+
+.main-nav .nav-link {
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Header end */
+
+/* Carousel */
+
+.carousel .carousel-caption h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: white;
+}
+
+/* Carousel end */
+
+/* Welcome */
+
+.new-webside p {
+    font-size: 1.6rem;
+    color: #979797;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Welcome end */
