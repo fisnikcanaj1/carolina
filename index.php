@@ -95,54 +95,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 py-5">
-            <h2 class="text-center text-uppercase">Business Hours</h2>
-            <p class="text-center mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis officiis ab repellat veritatis voluptas quidem neque officia perspiciatis dolorem.</p>
-            <table class="table table-hover text-center mt-5">
-              <thead class="table-danger">
-                <tr>
-                  <th class="text-center">Day</th>
-                  <th class="text-center">From</th>
-                  <th class="text-center">To</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Monday</td>
-                  <td>09:00</td>
-                  <td>19:00</td>
-                </tr>
-                <tr>
-                  <td>Tuesday</td>
-                  <td>09:00</td>
-                  <td>19:00</td>
-                </tr>
-                <tr>
-                  <td>Wednesday</td>
-                  <td>09:00</td>
-                  <td>19:00</td>
-                </tr>
-                <tr>
-                  <td>Thursday</td>
-                  <td>09:00</td>
-                  <td>19:00</td>
-                </tr>
-                <tr>
-                  <td>Friday</td>
-                  <td>09:00</td>
-                  <td>19:00</td>
-                </tr>
-                <tr>
-                  <td>Saturnsday</td>
-                  <td>09:00</td>
-                  <td>19:00</td>
-                </tr>
-                <tr>
-                  <td>Sunday</td>
-                  <td>Closed</td>
-                  <td>Closed</td>
-                </tr>
-              </tbody>
-            </table>
+            <?php include 'template/business_hours.php' ?>
           </div>
           <div class="col-md-6 bg-hours py-5">
             
@@ -219,5 +172,5 @@
     </section>
 
   <?php
-    // include 'template/footer.php';
+    include 'template/footer.php';
   ?>

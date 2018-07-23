@@ -266,3 +266,40 @@ h3 span {
     font-size: 1.3rem;
 }
 /* Social end */
+
+
+/* About us */
+
+.hero {
+    position: relative;
+}
+
+.hero h2 {
+    background-color: #8ed3cc;
+    position: absolute;
+    bottom: 2rem;
+    right: -15px;
+    padding: 1rem 2rem 1rem 6rem;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+}
+
+.main-content {
+    line-height: 2rem;
+}
+
+.sidebar {
+    background-color: #8ed3cc;
+}
+
+.sidebar p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+}
+
+.sidebar h2,
+.sidebar p {
+    color: #ffffff;
+}

@@ -49,7 +49,7 @@
           <hr class="w-100">
         </div>
         <div class=" text-center">
-          <p> Carolina Spa & Salon 2017</p>
+          <p> Carolina Spa & Salon 2018</p>
         </div>
       </div>
     </footer>

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Italianno|Lato:400,700|Raleway:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Italianno|Lato:400,700|Raleway:400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/font-awesome.css">
@@ -16,7 +16,9 @@
       <div class="container">
         <div class="row justify-content-between">
           <div class="col-8 offset-2 col-lg-4 offset-lg-0">
-            <img src="img/logo.svg" alt="Page logo" class="img-fluid mx-auto">
+            <a href="index.php">
+              <img src="img/logo.svg" alt="Page logo" class="img-fluid mx-auto">
+            </a>
           </div>
           <div class="col-12 col-lg-4">
             <nav class="socials mt-5">
