@@ -236,3 +236,33 @@ h3 span {
  /* Appointment end */
 
 
+/* Footer */
+
+.site-footer .copyright {
+    font-family: 'Lato', sans-serif;
+    color: #969696;
+}
+
+/* Footer end */
+
+/* Social Menu  */
+.socials ul {
+    margin-top: 40px;
+    list-style-type: none;
+}
+
+.socials ul li {
+    position: relative;
+    display: inline-block;
+}
+
+.socials ul li a i{
+    vertical-align: top;
+    display: inline-block;
+    padding: 0 0.5rem;
+    color: #e082a8;
+    
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.3rem;
+}
+/* Social end */

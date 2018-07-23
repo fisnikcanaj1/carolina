@@ -1,46 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Italianno|Lato:400,700|Raleway:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
-  <body>
-    <!-- Add Your HTML here -->
-    <header class="site-header">
-      <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-8 offset-2 col-lg-4 offset-lg-0">
-            <img src="img/logo.svg" alt="Page logo" class="img-fluid mx-auto">
-          </div>
-          <div class="col-12 col-lg-4">
-            <nav class="socials">
-              <a href="">Facebook</a>
-              <a href="">Twitter</a>
-              <a href="">Pinterest</a>
-              <a href="">Youtube</a>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </header> <!-- Header end -->
-
-    <div class="navigation mt-4 py-1">
-      <nav class="main-nav py-2">
-        <div class="container">
-          <ul class="nav justify-content-between flex-column flex-sm-row ">
-            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div> <!-- Navigation end -->
+<?php 
+  $title = 'Home';
+  include 'template/header.php';
+  include 'template/navigation.php';
+?>
+    
 
     <section class="carrosel mt-4">
       <div class="container">
@@ -255,10 +218,6 @@
       </div>
     </section>
 
-
-    <script src="js/jquery.slim.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-  </body>
-</html>
+  <?php
+    // include 'template/footer.php';
+  ?>
